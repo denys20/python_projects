@@ -13,7 +13,7 @@ def alarm(set_alarm_timer):
         print(now)
         if now==set_alarm_timer:
             print("Time to Wake up")
-        winsound.PlaySound("sound.wav",winsound.SND_ASYNC)
+        print("Time to Wake up")
         break
 def actual_time():
     set_alarm_timer=f"{hour.get()}:{min.get()}:{sec.get()}"
